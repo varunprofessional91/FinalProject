@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+    <display-name>ServletLogin</display-name>
+
+    <servlet>
+        <description></description>
+        <display-name>ServletLogin</display-name>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>servletpackage.ServletLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServletLogin</servlet-name>
+        <url-pattern>/ServletLogin</url-pattern>
+    </servlet-mapping>
+
+
+       <display-name>CreateAccount</display-name>
+        <servlet>
+            <description>
+            </description>
+            <display-name>CreateAccount</display-name>
+            <servlet-name>CreateAccount</servlet-name>
+            <servlet-class>servletpackage.CreateAccount</servlet-class>
+        </servlet>
+        <servlet-mapping>
+            <servlet-name>CreateAccount</servlet-name>
+            <url-pattern>/CreateAccount</url-pattern>
+        </servlet-mapping>
+
+
+    <display-name>Transactions</display-name>
+    <servlet>
+        <description>
+        </description>
+        <display-name>Transactions</display-name>
+        <servlet-name>Transactions</servlet-name>
+        <servlet-class>servletpackage.Transactions</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Transactions</servlet-name>
+        <url-pattern>/Transactions</url-pattern>
+    </servlet-mapping>
+
+
+    <display-name>Statements</display-name>
+    <servlet>
+        <description>
+        </description>
+        <display-name>Statements</display-name>
+        <servlet-name>Statements</servlet-name>
+        <servlet-class>servletpackage.Statements</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Statements</servlet-name>
+        <url-pattern>/Statements</url-pattern>
+    </servlet-mapping>
+
+    <display-name>CardAuthorize</display-name>
+    <servlet>
+        <description>
+        </description>
+        <display-name>CardAuthorize</display-name>
+        <servlet-name>CardAuthorize</servlet-name>
+        <servlet-class>servletpackage.CardAuthorize</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CardAuthorize</servlet-name>
+        <url-pattern>/CardAuthorize</url-pattern>
+    </servlet-mapping>
+
+
+    <display-name>AccInfo</display-name>
+    <servlet>
+        <description>
+        </description>
+        <display-name>AccInfo</display-name>
+        <servlet-name>AccInfo</servlet-name>
+        <servlet-class>servletpackage.AccInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AccInfo</servlet-name>
+        <url-pattern>/AccInfo</url-pattern>
+    </servlet-mapping>
+
+    <display-name>LogOut</display-name>
+    <servlet>
+        <description>
+        </description>
+        <display-name>LogOut</display-name>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>servletpackage.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/LogOut</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
+
